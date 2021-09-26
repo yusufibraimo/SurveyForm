@@ -1,6 +1,7 @@
 #title {
     font-family: 'Bebas Neue' ;
     padding-top: 20px;
+    color: red;
 }
 
 #description {
@@ -60,7 +61,7 @@ background: #FFFFFF
     100% { background-position: 100% 0%; }
   }
 
-  #name, #email, #dropdown, #comment {
+  #name, #email, #number, #dropdown, #comment {
     display: block;
     width: 100%;
     height: 40px;
@@ -75,6 +76,7 @@ background: #FFFFFF
 /* make all these elements into inline-block elements and also give bottom margin to space from eachother underneath */
 label[for=name], 
 label[for=email],
+label[for=number],
 label[for=dropdown],
 label[for=comment] {
 margin-bottom: 20px;
